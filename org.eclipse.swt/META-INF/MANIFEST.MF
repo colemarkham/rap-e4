@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SWT Stub
+Bundle-SymbolicName: org.eclipse.swt
+Bundle-Version: 3.100.1.qualifier
+Bundle-Vendor: RAP
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="2.1.0";visibility:=reexport
+Export-Package: org.eclipse.swt.custom,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.widgets

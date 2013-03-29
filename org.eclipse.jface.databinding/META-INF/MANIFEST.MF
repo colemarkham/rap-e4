@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JFace Databinding Stub
+Bundle-SymbolicName: org.eclipse.jface.databinding
+Bundle-Version: 1.6.100.qualifier
+Bundle-Vendor: RAP
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.rap.jface.databinding;bundle-version="2.1.0";visibility:=reexport

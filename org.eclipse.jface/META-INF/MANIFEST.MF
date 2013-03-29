@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jface Stub
+Bundle-SymbolicName: org.eclipse.jface
+Bundle-Version: 3.8.102.qualifier
+Bundle-Vendor: RAP
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.rap.jface;bundle-version="2.1.0";visibility:=reexport
