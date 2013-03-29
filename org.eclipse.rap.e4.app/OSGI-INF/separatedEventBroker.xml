@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="false" name="org.eclipse.rap.e4.app.separatedEventBroker">
+   <implementation class="org.eclipse.rap.e4.app.internal.SeparatedEventBrokerFactory"/>
+   <property name="service.context.key" type="String" value="org.eclipse.e4.core.services.events.IEventBroker"/>
+   <property name="service.ranking" type="Integer" value="10"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
+   </service>
+</scr:component>
